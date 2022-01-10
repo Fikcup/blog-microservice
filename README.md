@@ -4,7 +4,7 @@
   <h3 align="center">Blog Microservice</h3>
 
   <p align="center">
-    A simple microservice blog backend utilizing JavaScript, Docker, and Kubernetes.
+    A simple fullstack microservice blog utilizing JavaScript, Docker, and Kubernetes.
     <br />
   </p>
 </p>
