@@ -14,7 +14,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Blog Screenshot]()<br />
+![Blog Screenshot](https://i.imgur.com/jfAgxYP.png)<br />
 Project Link: [Blog](https://github.com/Fikcup/blog-microservice)
 
 
