@@ -15,7 +15,7 @@
 ## About The Project
 
 ![Blog Screenshot](https://i.imgur.com/jfAgxYP.png)<br />
-Project Link: [Blog](https://github.com/Fikcup/blog-microservice)
+Project Link: [Blog](http://34.135.47.250/)
 
 
 ### Built With
@@ -24,6 +24,29 @@ Project Link: [Blog](https://github.com/Fikcup/blog-microservice)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Fikcup/react-portfolio.git
+   ```
+2. Edit the host in ingress-srv.yaml to reflect a local IP
+3. Install ingress-nginx to your cluser
+   ```sh
+   kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.1.0/deploy/static/provider/cloud/deploy.yaml
+   ```
+4. Apply k8s yaml files
+   ```sh
+   cd infra/k8s
+   kubectl apply -f .
+   ```
+5. Open the specified host in your browser
 
 <!-- LICENSE -->
 ## License
