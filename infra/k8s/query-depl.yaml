@@ -15,7 +15,6 @@ spec:
       containers: 
         - name: query
           image: fikrys/micro-query
-          imagePullPolicy: Never
 ---
 apiVersion: v1
 kind: Service

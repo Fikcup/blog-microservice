@@ -15,7 +15,6 @@ spec:
       containers: 
         - name: moderation
           image: fikrys/micro-mod
-          imagePullPolicy: Never
 ---
 apiVersion: v1
 kind: Service
