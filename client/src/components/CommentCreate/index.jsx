@@ -7,7 +7,7 @@ const CommentCreate = ({ postId }) => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        await axios.post(`http://posts.com/posts/${postId}/comments`, {
+        await axios.post(`http://34.135.47.250/posts/${postId}/comments`, {
             content
         });
 
