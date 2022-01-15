@@ -6,6 +6,8 @@
   <p align="center">
     A simple fullstack microservice blog utilizing JavaScript, Docker, and Kubernetes.
     <br />
+    IMPORTANT NOTE: This application does not have autoreload functionality. When you add a post or comment you WILL need to refresh the page to view your post/comment.
+    <br />
   </p>
 </p>
 
